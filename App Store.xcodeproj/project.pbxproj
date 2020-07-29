@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -80,6 +80,7 @@
 		BF0708C424D09DE400C10301 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		BF0708C724D0C32D00C10301 /* BuscaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaService.swift; sourceTree = "<group>"; };
 		BF0708CA24D0DB4200C10301 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		BF41456B24D1B3B700C7219E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D5FF6D4D8856079209D0CE60 /* Pods_App_StoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_StoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -121,13 +122,13 @@
 				61D593A6B2A75079640B70AF /* Pods-App StoreTests.debug.xcconfig */,
 				0A844A17AC785662577A19DD /* Pods-App StoreTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		BF07087524D06A7100C10301 = {
 			isa = PBXGroup;
 			children = (
+				BF41456B24D1B3B700C7219E /* README.md */,
 				BF07088024D06A7100C10301 /* App Store */,
 				BF07089724D06A7500C10301 /* App StoreTests */,
 				BF0708A224D06A7500C10301 /* App StoreUITests */,
