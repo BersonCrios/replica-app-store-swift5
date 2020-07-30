@@ -19,4 +19,16 @@ extension UILabel {
         
         return label
     }
+    
+    
+    static func textBoldLabel(text: String, fontSize: CGFloat, numbersOfLine: Int = 1) -> UILabel{
+           
+           let label = UILabel()
+           
+           label.font = UIFont.boldSystemFont(ofSize: fontSize)
+           label.numberOfLines = numbersOfLine
+           label.text = text
+           
+           return label
+       }
 }
