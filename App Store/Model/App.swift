@@ -14,7 +14,9 @@ struct App: Decodable {
     let empresa: String
     let avaliacao: String?
     let iconeUrl: String
+    let descricao: String?
     let screenshotUrls: [String]?
+    let comentarios: [AppComentario]?
 }
 
 
@@ -30,5 +32,11 @@ struct AppGrupo: Decodable {
     let id: String
     let titulo: String
     let apps: [App]
+}
 
+struct AppComentario: Decodable {
+    let id: Int
+    let titulo: String
+    let avaliacao: Int
+    let descricao: String?
 }
