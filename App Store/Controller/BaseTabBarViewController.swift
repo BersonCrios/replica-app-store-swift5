@@ -21,7 +21,7 @@ class BaseTabBarViewController: UITabBarController {
         /*
             CRIANDO AS VIEW CONTROLLES QU SERÃO COLOCADAS NA TAB BAR
          */
-        let hojeViewController = self.criarTabItem(viewController: UIViewController(), titulo: "Hoje", imagem: "icone-hoje")
+        let hojeViewController = self.criarTabItem(viewController: HojeViewController(), titulo: "Hoje", imagem: "icone-hoje")
        
         
         let appsViewController = self.criarTabItem(viewController: AppsViewController(), titulo: "Apps", imagem: "icone-apps")
@@ -40,7 +40,8 @@ class BaseTabBarViewController: UITabBarController {
             appsViewController,
             buscaViewController
         ]
-        selectedIndex = 1
+        selectedIndex = 0
+        
     }
     
     
